@@ -849,17 +849,27 @@ footer {
 }
 
 .summoner-card {
-    background: white;
-    border-radius: 6px;
-    padding: 20px;
+    background: var(--bg-tertiary);
+    border-radius: 1rem;
+    padding: 2rem;
     margin-bottom: 20px;
     text-align: center;
+    color: var(--text-primary);
+    border: 1px solid rgba(0, 217, 255, 0.2);
+    transition: all 0.3s ease;
 }
 
 .summoner-card h5 {
-    color: #c89b3c;
-    font-size: 24px;
-    margin-bottom: 8px;
+    color: var(--accent-green);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.summoner-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0.5rem 0;
 }
 
 .champions-grid {
@@ -869,15 +879,20 @@ footer {
 }
 
 .champion-card {
-    background: white;
-    border-radius: 6px;
-    padding: 16px;
-    border-left: 4px solid #c89b3c;
+    background: var(--bg-tertiary);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 217, 255, 0.2);
+    border-left: 4px solid var(--accent-green);
+    color: var(--text-primary);
+    transition: all 0.3s ease;
 }
 
 .champion-card p {
-    margin: 4px 0;
-    font-size: 14px;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
 }
 
 @media (max-width: 768px) {
